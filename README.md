@@ -2,13 +2,13 @@ Showcasing the iPhone 15 series, it is a stunning webpage that highlights the fe
 
 ## Code Overview
 
-### App Component
+### [App Component](https://github.com/ReginaldKotey/AppleCloneWeb/blob/main/src/App.jsx)
 The `App` component serves as the main entry point of the application. It orchestrates the rendering of various sections of the landing page. Here’s a breakdown of its components:
 
 #### Main Methods
 - **Render Method**: The `App` component returns the main layout of the page, including the navigation bar, hero section, highlights, model section, features, gaming section, and footer. It uses a main tag with a black background for styling.
 
-### Navbar Component
+### [Navbar Component](https://github.com/ReginaldKotey/AppleCloneWeb/blob/main/src/components/Navbar.jsx)
 The `Navbar` component displays the top navigation bar with the Apple logo and links to different sections of the landing page. Here’s a breakdown of its components:
 
 #### Main Methods
@@ -17,7 +17,7 @@ The `Navbar` component displays the top navigation bar with the Apple logo and l
   - Renders navigation links centered in the navbar.
   - Provides icons for search and shopping cart on the right side.
 
-### Hero Component
+### [Hero Component](https://github.com/ReginaldKotey/AppleCloneWeb/blob/main/src/components/Hero.jsx)
 The `Hero` component presents the primary promotional section for the iPhone 15 Pro. Its functionality includes a responsive video display and a call-to-action button. Here’s a breakdown of its components:
 
 #### Constructor
@@ -35,13 +35,13 @@ The `Hero` component presents the primary promotional section for the iPhone 15 
   - Renders a responsive video element that plays automatically and is muted.
   - Includes a call-to-action section with a button to buy the product and a pricing description.
 
-### Highlights, Model, Features, Gaming, and Footer Components
+### [Highlights](https://github.com/ReginaldKotey/AppleCloneWeb/blob/main/src/components/Highlights.jsx), [Model](https://github.com/ReginaldKotey/AppleCloneWeb/blob/main/src/components/Model.jsx), [Features](https://github.com/ReginaldKotey/AppleCloneWeb/blob/main/src/components/Features.jsx), [Gaming](https://github.com/ReginaldKotey/AppleCloneWeb/blob/main/src/components/Gaming.jsx), and [Footer](https://github.com/ReginaldKotey/AppleCloneWeb/blob/main/src/components/Footer.jsx) Components
 These components are placeholders for additional content and functionality on the landing page (details not provided in the initial code). They should be structured similarly to the `Navbar` and `Hero` components, ensuring a cohesive design and interactivity.
 
 ![vid1](https://github.com/user-attachments/assets/34742ead-5569-49ea-a1b8-0436a78c47a7)
 
 
-### Highlights Component
+### [Highlights Component](https://github.com/ReginaldKotey/AppleCloneWeb/blob/main/src/components/Highlights.jsx)
 The `Highlights` component showcases key features of the iPhone 15 Pro with a title, links to watch related content, and a video carousel. Here’s a breakdown of its components:
 
 #### Main Methods
@@ -53,7 +53,7 @@ The `Highlights` component showcases key features of the iPhone 15 Pro with a ti
   - Provides two links: one to watch a film and another to watch the event, each accompanied by an icon.
   - Renders a `VideoCarousel` component for displaying video content dynamically.
 
-### Model Component
+### [Model Component](https://github.com/ReginaldKotey/AppleCloneWeb/blob/main/src/components/Model.jsx)
 The `Model` component allows users to interact with a 3D model of the iPhone 15 Pro, providing options to view it in different sizes and colors. Here’s a breakdown of its components:
 
 #### Constructor
@@ -78,7 +78,7 @@ The `Model` component allows users to interact with a 3D model of the iPhone 15 
 
 ![vid2](https://github.com/user-attachments/assets/4a22ed45-98eb-4dc1-b058-5f3a13af99ad)
 
-### Features Component
+### [Features Component](https://github.com/ReginaldKotey/AppleCloneWeb/blob/main/src/components/Features.jsx)
 The `Features` component presents the iPhone's key features, emphasizing its titanium design through video and images. Here’s a breakdown of its components:
 
 #### Main Methods
@@ -91,7 +91,7 @@ The `Features` component presents the iPhone's key features, emphasizing its tit
   - Renders a video element for showcasing the iPhone, which automatically plays when it comes into view.
   - Includes two feature images that animate upon scrolling, accompanied by descriptive text about the iPhone's titanium features.
 
-### Gaming Component
+### [Gaming Component](https://github.com/ReginaldKotey/AppleCloneWeb/blob/main/src/components/Gaming.jsx)
 The `Gaming` component highlights the capabilities of the A17 Pro chip, focusing on gaming performance with a video demonstration. Here’s a breakdown of its components:
 
 #### Main Methods
@@ -104,7 +104,7 @@ The `Gaming` component highlights the capabilities of the A17 Pro chip, focusing
   - Features a video demonstrating gameplay, set within a frame image for visual context.
   - Provides descriptive text about the gaming performance, emphasizing the immersive experience provided by the new chip.
 
-### Footer Component
+### [Footer Component](https://github.com/ReginaldKotey/AppleCloneWeb/blob/main/src/components/Footer.jsx)
 The `Footer` component offers additional shopping information and legal disclaimers for Apple. Here’s a breakdown of its components:
 
 #### Render Method
